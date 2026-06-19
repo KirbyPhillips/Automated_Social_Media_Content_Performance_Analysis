@@ -45,7 +45,7 @@ The following tools and technologies were used to complete this analysis:
 | DAX | 21 measures across 4 display folders |
 | Figma | Dashboard design, accessed via the Figma MCP connector in Claude |
 | HTML and CSS | Static design reference built from the Figma design, used as the blueprint for the Power BI rebuild |
-| JSON | Custom Violet Pulse theme applied across all visual types |
+| JSON | Custom Glacier Bloom theme applied across all visual types |
 
 ---
 
@@ -58,7 +58,7 @@ This analysis was planned and executed using the SCAN Framework, a personal stru
 | S - Scope the Situation | - Defined the business problem and the cost of inaction. <br><br> - **HOW?** A full Python EDA on the raw 5,600 row, 24 column dataset revealed that posting time and platform choice had only a marginal effect on engagement rate, while content category was the strongest driver by a wide margin. This finding reframed the central question the dashboard needed to answer. |
 | C - Confirm the Core Metrics | - Established the North Star metric (Average Engagement Rate), and 3 Catalysts (Volume performance, High Performer Rate, and Click-Through Rate). <br><br> - **HOW?** Mapped 21 DAX measures into 4 display folders, one per catalyst, so each could be diagnosed on its own terms given that volume metrics and engagement rate follow completely different statistical distributions. |
 | A - Build the Architecture | - Cleaned the raw export from 24 to 38 columns in Python, then built a star schema with 6 tables, 5 active relationships, and 21 DAX measures organised into display folders. <br><br> - **HOW?** Every modelling decision, from choosing median over average for volume metrics to isolating Click and CTR into its own folder, was made to reflect a specific EDA finding rather than a generic default. |
-| N - Narrate the Story | - Designed the dashboard in Figma first, converted that design into an HTML and CSS reference, then manually rebuilt the visuals natively in Power BI using a custom Violet Pulse theme. <br><br> - **HOW?** Used the Figma MCP connector in Claude to scope and build the design, kept the HTML reference in sync with every Figma revision, then applied the finished design back onto the live Power BI report through background images and button-based page navigation. |
+| N - Narrate the Story | - Designed the dashboard in Figma first, converted that design into an HTML and CSS reference, then manually rebuilt the visuals natively in Power BI using a custom Glacier Bloom theme. <br><br> - **HOW?** Used the Figma MCP connector in Claude to scope and build the design, kept the HTML reference in sync with every Figma revision, then applied the finished design back onto the live Power BI report through background images and button-based page navigation. |
 
 ---
 
@@ -198,14 +198,14 @@ Built 5 report pages following the North Star to Catalyst to Indicator hierarchy
 
 ### PHASE 5: Design and Theme
 **Steps:**
-- Designed a custom Violet Pulse Power BI theme, deliberately avoiding green and blue to keep this dashboard visually distinct from two existing portfolio dashboards
+- Designed a custom Power BI theme named Glacier Bloom, a soft blue and navy palette set on a pale diagonal gradient background, paired with Lora for headline and KPI typography and Inter for body and UI text, arrived at after iterating through several earlier color and naming directions
 - Added a dynamic `Icon_URL` column to `dim_Platform` via Power Query, sourced from self-hosted icon files on GitHub, set to Power BI's Image URL data category so platform icons render natively
 - Scoped the design workflow using the Figma MCP connector in Claude. Since Power BI cannot import a full custom layout as a single package, the chosen approach was to design in Figma first, convert that design into an HTML and CSS reference, then manually rebuild the visuals natively in Power BI rather than attempting a direct import
 - Designed a Cover Page and the Executive Overview page in Figma at 1920x1080, scaled proportionally from an earlier 1280x720 draft
 - Kept the HTML and CSS reference in sync with every Figma revision using headless browser checks, so the reference never drifted from the approved design
 - Applied the finished design back onto the live Power BI report through background images and transparent button overlays with Page Navigation actions for the icon navigation bar
 
-![Alt text](images/Violet%20Pulse%20Executive%20Overview.png)
+![Alt text](images/Glacier%20Bloom%20Executive%20Overview.png)
 
 ![Alt text](images/SM%20Executive%20Overview_PBI.png)
 

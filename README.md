@@ -6,7 +6,7 @@ This repository outlines the full technical process used in the analysis, from P
 
 ## Table of Contents
 
-This repository is structured to walk you through the end-to-end process of the Social Media Performance Dashboard, from the initial business problem through to the final insights and reflections. Each section builds on the previous one, following the same logical flow used to plan and execute the analysis itself.
+This repository is structured to walk you through the end-to-end process of the Social Media Performance Analysis, from the initial business problem through to the final insights and reflections. Each section builds on the previous one, following the same logical flow used to plan and execute the analysis itself.
 
 1. [Project Overview](#project-overview)
 2. [Tools and Technologies](#tools-and-technologies)

@@ -2,7 +2,7 @@
 
 ### Note: 
 
-This repository outlines the full technical process used in the analysis, from Python-based exploratory data analysis through to a Figma-designed Power BI dashboard. Key business insights and recommendations are provided at the end, including a link to the comprehensive business report.
+This repository outlines the full technical process used in the analysis, from Python-based exploratory data analysis through to a Figma-designed Power BI dashboard. Key business insights and recommendations are provided at the end, including a link to the comprehensive 2 page business report.
 
 ## Table of Contents
 

@@ -192,7 +192,7 @@ The data model is structured as a star schema with one central fact table (fact_
 
 #### Measures Organisation and Model Optimisation
 
-![Alt text](images/SM%20_Measures%20table.png)
+![Alt text](images/SMMeasures.png)
 
 ---
 

@@ -19,7 +19,7 @@ This repository is structured to walk you through the end-to-end process of the 
 
 ## 1. Project Overview
 
-A multi-platform brand posting regularly across six social media platforms had no consolidated view of what content actually drove performance. Post-level data covering 5,600 posts existed as a single flat, denormalised export with no analytical structure. Key information such as engagement quality, content category performance, and click-through behaviour could not be interrogated or acted upon.
+A multi-platform brand posting regularly across 6 social media platforms had no consolidated view of what content actually drove performance. Post-level data covering 5,600 posts existed as a single flat, denormalised export with no analytical structure. Key information such as engagement quality, content category performance, and click-through behaviour could not be interrogated or acted upon.
 
 As a result, stakeholders were unable to answer critical business questions, such as:
 

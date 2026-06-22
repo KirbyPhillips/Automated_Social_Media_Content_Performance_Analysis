@@ -144,13 +144,15 @@ This image below shows all the above mentioned components of this data model in 
 
 To complement the Power BI data model above, two database schema diagrams were created using dbdiagram.io to document the data structure at different stages of the pipeline.
 
-1. CSV Schema: shows the cleaned, analysis-ready dataset produced after Python EDA, with 38 columns grouped into 5 logical tables (posts, engagement, geo, clicks, and outlier flags).
+**1. CSV Schema:** shows the cleaned, analysis-ready dataset produced after Python EDA, with 38 columns grouped into 5 logical tables (posts, engagement, geo, clicks, and outlier flags).
 
 ![Alt text](images/CSVAnalyticalSchema.png)
 
-2. Power BI Star Schema: mirrors the actual Power BI data model, showing how fact_Posts connects to the 5 dimension tables via surrogate keys for efficient analytical reporting.
+
+**2. Power BI Star Schema:** mirrors the actual Power BI data model, showing how fact_Posts connects to the 5 dimension tables via surrogate keys for efficient analytical reporting.
 
 ![Alt text](images/SMPBDataModelv1.png)
+
 
 #### 3) Relationships
 This is a summary of the relationship cardinality:

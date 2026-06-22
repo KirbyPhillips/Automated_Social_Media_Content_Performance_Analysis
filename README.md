@@ -219,7 +219,7 @@ Built 5 report pages following the North Star to Catalyst to Indicator hierarchy
 - Kept the HTML and CSS reference in sync with every Figma revision using headless browser checks, so the reference never drifted from the approved design
 - Applied the finished design back onto the live Power BI report through background images and transparent button overlays with Page Navigation actions for the icon navigation bar
 
-![Alt text](images/Glacier%20Bloom%20Executive%20Overview.png)
+![Alt text](images/GlacierBloomEngagementDeepDivepng)
 
 ![Alt text](images/SM%20Executive%20Overview_PBI.png)
 

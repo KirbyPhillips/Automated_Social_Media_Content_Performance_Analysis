@@ -221,7 +221,7 @@ Built 5 report pages following the North Star to Catalyst to Indicator hierarchy
 
 ![Alt text](images/GlacierBloomEngagementDeepDive.png)
 
-![Alt text](images/SM%20Executive%20Overview_PBI.png)
+![Alt text](images/SMEngagementDeepDiveDB.png)
 
 ---
 

@@ -23,8 +23,8 @@ A multi-platform brand posting regularly across 6 social media platforms had no 
 
 As a result, stakeholders were unable to answer critical business questions, such as:
 
-- Which content categories and post types actually drive engagement, versus what simply gets produced the most?
-- Does posting time or platform choice meaningfully affect performance, or is content strategy doing all of the work?
+- Which content categories and post types actually drive engagement?
+- Does posting time or platform choice meaningfully affect performance?
 - Where are the gaps in current tracking, such as click data, that limit how confidently funnel decisions can be made?
 
 This project was built to bridge that gap by transforming a raw social media export into a structured, end-to-end Power BI analytics solution, combining Python-led exploratory analysis with a Figma-informed design process. The goal was to enable clear visibility into content performance, support data-driven content strategy decisions, and uncover the platform and format levers that actually move engagement.

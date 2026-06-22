@@ -77,7 +77,7 @@ A structured, end-to-end workflow was followed to transform a raw social media e
 
 **Data prep image:**
 
-![Alt text](images/SM%20Data%20prep.png)
+![Alt text](images/SMDataPrep.png)
 
 ## Characteristics of the dataset
 

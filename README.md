@@ -79,6 +79,10 @@ A structured, end-to-end workflow was followed to transform a raw social media e
 
 ![Alt text](images/SMDataPrep.png)
 
+**Python EDA image:**
+
+![Alt text](images/SMPythonEDA.png)
+
 ## Characteristics of the dataset
 
 | Property | Detail |

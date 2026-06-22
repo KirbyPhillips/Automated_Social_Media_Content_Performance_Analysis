@@ -149,7 +149,7 @@ To complement the Power BI data model above, two database schema diagrams were c
 ![Alt text](images/CSVAnalyticalSchema.png)
 
 
-**2. Power BI Star Schema:** mirrors the actual Power BI data model, showing how fact_Posts connects to the 5 dimension tables via surrogate keys for efficient analytical reporting.
+**2. Power BI Star Schema:** mirrors the actual Power BI data model, showing how fact_Posts connects to the 5 dimension tables via foreign keys for efficient analytical reporting.
 
 ![Alt text](images/SMPBDataModelv1.png)
 

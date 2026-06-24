@@ -44,7 +44,6 @@ The following tools and technologies were used to complete this analysis:
 | Power Query | Data transformation and star schema construction |
 | DAX | 21 measures across 4 display folders |
 | Figma | Wireframing and report background design |
-| HTML and CSS | Static design reference built from the Figma design, used as the blueprint for the Power BI rebuild |
 | JSON | Custom Glacier Bloom theme applied across all visual types |
 
 ---

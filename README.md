@@ -29,7 +29,7 @@ As a result, stakeholders were unable to answer critical business questions, suc
 
 This project was built to bridge that gap by transforming a raw social media export into a structured, end-to-end Power BI analytics solution, combining Python-led exploratory analysis with a Figma-informed design process. The goal was to enable clear visibility into content performance, support data-driven content strategy decisions, and uncover the platform and format levers that actually move engagement.
 
-![Alt text](images/SM%20Executive%20Overview.png)
+![Alt text](images/ExecutiveOverview.png)
 
 ---
 

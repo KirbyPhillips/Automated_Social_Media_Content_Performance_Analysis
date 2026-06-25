@@ -83,7 +83,6 @@ The 14 derived columns added by the cleaning script:
  
 | Column | Source | Purpose |
 |---|---|---|
-
 | `Post_Date` | `Post_Published_At` | Date-only field for Power BI date table join |
 | `Post_Hour` | `Post_Published_At` | Posting hour extracted for time-of-day analysis |
 | `Post_Day_of_Week` | `Post_Published_At` | Day name for day-of-week engagement patterns |

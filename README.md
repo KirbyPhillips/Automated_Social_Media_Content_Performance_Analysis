@@ -69,13 +69,13 @@ A structured, end-to-end workflow was followed to transform a raw social media e
 **Steps:**
 
 *Exploratory Data Analysis*
-- Conducted a full exploratory data analysis on the raw `Social_Media_Content_Performance_Dataset.xlsx` file (5,600 rows, 24 columns), covering 6 platforms and 8 regions
-- Ran distribution checks, null analysis, duplicate checks, a correlation matrix, and time-series analysis using pandas, numpy, matplotlib, and seaborn
-- Identified that `Engagement_Rate` is normally distributed with zero outliers (mean and median both 0.15, skew effectively 0.00), confirming AVERAGE as the correct central measure for this metric
-- Identified all volume metrics (Likes, Views, Shares, Comments, Impressions, Reach) as right-skewed, confirming MEDIAN as the correct benchmark for all volume reporting
-- Found `Impressions` and `Views` correlate at 1.00, flagging them as effectively duplicate fields
-- Confirmed `Content_Category` as the strongest driver of engagement performance, well ahead of platform or posting time
-- Confirmed click data is structurally absent for Instagram, X.com, and YouTube (3,740 null rows), not a data quality issue but a platform-level tracking gap
+- Conducted a full exploratory data analysis on the raw `Social_Media_Content_Performance_Dataset.xlsx` file (5,600 rows, 24 columns), covering 6 platforms and 8 regions.
+- Ran distribution checks, null analysis, duplicate checks, a correlation matrix, and time-series analysis using pandas, numpy, matplotlib, and seaborn.
+- Identified that `Engagement_Rate` is normally distributed with zero outliers (mean and median both 0.15, skew effectively 0.00), confirming AVERAGE as the correct central measure for this metric.
+- Identified all volume metrics (Likes, Views, Shares, Comments, Impressions, Reach) as right-skewed, confirming MEDIAN as the correct benchmark for all volume reporting.
+- Found `Impressions` and `Views` correlate at 1.00, flagging them as effectively duplicate fields.
+- Confirmed `Content_Category` as the strongest driver of engagement performance, well ahead of platform or posting time.
+- Confirmed click data is structurally absent for Instagram, X.com, and YouTube (3,740 null rows), not a data quality issue but a platform-level tracking gap.
 
  *Cleaning Pipeline*
 - Built a Python cleaning script using pandas that expanded the dataset from 24 to 38 columns, adding 14 derived columns and producing `social_media_cleaned.csv` as the single source file for all downstream work

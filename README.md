@@ -156,9 +156,9 @@ fact_Posts (5,600 rows, 35 columns)
     |
     |-- dim_Platform (6 rows, 2 columns)            [via PlatformKey]
     |-- dim_Region (8 rows, 2 columns)              [via RegionKey]
-    |-- dim_Content (5 rows, 2 columns)              [via ContentKey]
-    |-- dim_Engagement_Level (3 rows, 3 columns)     [via EngLevelKey]
-    |-- dim_Date (487 rows, 11 columns)              [via DateKey]
+    |-- dim_Content (5 rows, 2 columns)             [via ContentKey]
+    |-- dim_Engagement_Level (3 rows, 3 columns)    [via EngLevelKey]
+    |-- dim_Date (487 rows, 11 columns)             [via DateKey]
 ```
 
 This image below shows all the above mentioned components of this data model in a logical star schema design. It illustrates the relationship between the central fact_Posts table and supporting dimension tables, structured to enable scalable and efficient analytical reporting.

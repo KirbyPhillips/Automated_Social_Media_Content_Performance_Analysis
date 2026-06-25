@@ -235,11 +235,9 @@ Built 5 report pages following the North Star to Catalyst to Indicator hierarchy
 
 ### PHASE 5: Design and Theme
 **Steps:**
-- Designed a custom Power BI theme named Glacier Bloom, a soft blue and navy palette set on a pale diagonal gradient background, paired with Lora for headline and KPI typography and Inter for body and UI text, arrived at after iterating through several earlier color and naming directions.
+-  Designed a custom Power BI theme named Glacier Bloom, a soft blue and navy palette set on a pale diagonal gradient background, paired with Lora for headline and KPI typography and Inter for body and UI text, arrived at after iterating through several earlier color and naming directions.
 - Added a dynamic `Icon_URL` column to `dim_Platform` via Power Query, sourced from self-hosted icon files on GitHub, set to Power BI's Image URL data category so platform icons render natively.
-- Scoped the design workflow using the Figma MCP connector in Claude. Since Power BI cannot import a full custom layout as a single package, the chosen approach was to design in Figma first, convert that design into an HTML and CSS reference, then manually rebuild the visuals natively in Power BI rather than attempting a direct import.
-- Designed a Cover Page and the Executive Overview page in Figma at 1920x1080, scaled proportionally from an earlier 1280x720 draft.
-- Kept the HTML and CSS reference in sync with every Figma revision using headless browser checks, so the reference never drifted from the approved design.
+- Scoped the design workflow using the Figma MCP connector in Claude. Since Power BI cannot import a full custom layout as a single package, the chosen approach was to design in Figma first, then manually rebuild the visuals natively in Power BI rather than attempting a direct import.
 - Applied the finished design back onto the live Power BI report through background images and transparent button overlays with Page Navigation actions for the icon navigation bar.
 
 ![Alt text](images/GlacierBloomEngagementDeepDive.png)

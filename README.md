@@ -1,4 +1,4 @@
-# Social Media Content Performance Analysis
+# Automated Social Media Content Performance Analysis
 
 ### Note: 
 

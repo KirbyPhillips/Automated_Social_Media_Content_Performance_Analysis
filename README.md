@@ -67,12 +67,36 @@ A structured, end-to-end workflow was followed to transform a raw social media e
 
 ### PHASE 1: Data Preparation (Python)
 **Steps:**
+
+*Exploratory Data Analysis*
 - Conducted a full exploratory data analysis on the raw `Social_Media_Content_Performance_Dataset.xlsx` file (5,600 rows, 24 columns), covering 6 platforms and 8 regions
 - Ran distribution checks, null analysis, duplicate checks, a correlation matrix, and time-series analysis using pandas, numpy, matplotlib, and seaborn
-- Identified that `Engagement_Rate` is normally distributed with zero outliers, while all volume metrics (Likes, Views, Shares, Comments, Impressions, Reach) are right-skewed
+- Identified that `Engagement_Rate` is normally distributed with zero outliers (mean and median both 0.15, skew effectively 0.00), confirming AVERAGE as the correct central measure for this metric
+- Identified all volume metrics (Likes, Views, Shares, Comments, Impressions, Reach) as right-skewed, confirming MEDIAN as the correct benchmark for all volume reporting
 - Found `Impressions` and `Views` correlate at 1.00, flagging them as effectively duplicate fields
 - Confirmed `Content_Category` as the strongest driver of engagement performance, well ahead of platform or posting time
-- Built a Python cleaning pipeline that expanded the dataset from 24 to 38 columns (14 new derived columns), producing `social_media_cleaned.csv` as the single source file for all downstream work
+- Confirmed click data is structurally absent for Instagram, X.com, and YouTube (3,740 null rows), not a data quality issue but a platform-level tracking gap
+
+ *Cleaning Pipeline*
+- Built a Python cleaning script using pandas that expanded the dataset from 24 to 38 columns, adding 14 derived columns and producing `social_media_cleaned.csv` as the single source file for all downstream work
+The 14 derived columns added by the cleaning script:
+ 
+| Column | Source | Purpose |
+|---|---|---|
+| `Post_Date` | `Post_Published_At` | Date-only field for Power BI date table join |
+| `Post_Hour` | `Post_Published_At` | Posting hour extracted for time-of-day analysis |
+| `Post_Day_of_Week` | `Post_Published_At` | Day name for day-of-week engagement patterns |
+| `Post_Month` | `Post_Published_At` | Month name for monthly trend analysis |
+| `Post_Year` | `Post_Published_At` | Year field for calendar table support |
+| `Engagement_Level` | `Engagement_Rate` | Banded into Low, Medium, and High tiers |
+| `Is_High_Performer` | `Engagement_Rate` | Binary flag: 1 if High engagement, else 0 |
+| `Has_Click_Data` | `Clicks` | Binary flag: 1 if click data is present, else 0 |
+| `PlatformKey` | `Platform` | Foreign key for dim_Platform join |
+| `RegionKey` | `Region` | Foreign key for dim_Region join |
+| `ContentKey` | `Content_Category` | Foreign key for dim_Content join |
+| `EngLevelKey` | `Engagement_Level` | Foreign key for dim_Engagement_Level join |
+| `DateKey` | `Post_Date` | Foreign key for dim_Date join |
+| `Post_ID_Clean` | `Post_ID` | Cleaned and deduplicated post identifier | 
 
 **Data prep image:**
 

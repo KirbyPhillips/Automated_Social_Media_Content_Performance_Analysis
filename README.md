@@ -77,7 +77,7 @@ A structured, end-to-end workflow was followed to transform a raw social media e
 - Confirmed `Content_Category` as the strongest driver of engagement performance, well ahead of platform or posting time.
 - Confirmed click data is structurally absent for Instagram, X.com, and YouTube (3,740 null rows), not a data quality issue but a platform-level tracking gap.
 
- *Cleaning Pipeline*
+ *Automated Data Cleaning Pipeline*
 - Built a Python cleaning script using pandas that expanded the dataset from 24 to 38 columns, adding 14 derived columns and producing `social_media_cleaned.csv` as the single source file for all downstream work.
 The 14 derived columns added by the cleaning script:
  

@@ -309,4 +309,4 @@ For any inquiries, contact me:
 
 Email: kphillips.za@gmail.com
 
-DM: [LinkedIn](https://www.linkedin.com/in/kirbykphillips/)
+DM on: [LinkedIn](https://www.linkedin.com/in/kirbykphillips/)

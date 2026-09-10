@@ -297,7 +297,7 @@ This analysis covers the full scope of the social media dataset as it was provid
 The interactive dashboard of this project can be viewed [here](https://bit.ly/4akyBmx).   
 The comprehensive business report can be found [here](./Social%20Media%20Business%20Report.pdf).
 
-For any inquiries, email me: kirby@primepeakinsights.com
+For any inquiries, email me: kphillips.za@gmail.com
 
 ---
 

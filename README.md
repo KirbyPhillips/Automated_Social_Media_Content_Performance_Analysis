@@ -305,4 +305,10 @@ For any inquiries, email me: kphillips.za@gmail.com
 
 **Kirby Phillips**
 
-Data Consultant | [LinkedIn](https://www.linkedin.com/in/kirbykphillips/)
+Data Consultant | BI & Data Science
+
+For any inquiries, contact me: 
+
+Email: kphillips.za@gmail.com
+
+DM: [LinkedIn](https://www.linkedin.com/in/kirbykphillips/)

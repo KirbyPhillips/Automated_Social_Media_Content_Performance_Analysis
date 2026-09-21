@@ -301,9 +301,7 @@ The comprehensive business report can be found [here](./Social%20Media%20Busines
 
 ## Author
 
-**Kirby Phillips**
-
-Data Consultant | BI & Data Science
+**Kirby Phillips** | Data Consultant
 
 For any inquiries, contact me: 
 
